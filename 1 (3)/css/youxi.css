@@ -1,0 +1,166 @@
+/*��3��Ԫ  ��Ŀ3-1 �������*/
+.border-radius {
+    width: 200px;
+    height: 50px;
+    margin: 35px auto;
+    background-color: #AAE6DA;
+    border:5px solid #fff;
+    border-radius: 50px;/*四个边框圆角半径都是50px*/
+    font-family: 'Microsoft Yahei';
+    font-size:25px;
+    color: #fff;
+    line-height:50px;
+    text-align: center;
+}
+.border-radiu{
+    width: 1250px;
+    height: 50px;
+    margin: 35px auto;
+    background-color: #36424b;
+    border:5px solid #fff;
+    border-radius: 50px;/*四个边框圆角半径都是50px*/
+    font-family: 'Microsoft Yahei';
+    font-size:25px;
+    color: #fff;
+    line-height:50px;
+    text-align: center;
+}
+.aside{
+    float:left;
+    width: 300px;
+
+}
+.hover {
+    width: 200px;
+    background: rgba(0, 0,0,0.5);
+    position: absolute;
+    top: 40px;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    transform: rotate(55deg);/*变形：旋转55度*/
+    -webkit-transform: rotate(55deg);
+    transition: all 0.5s;/*过渡：所有属性都改变，时长0.5s*/
+    -webkit-transition: all 0.5s;
+    overflow: hidden;
+    height: 0;
+    z-index: 4000; /*设置元素的堆叠顺序，属性值越大，该元素层离用户越近*/
+}
+
+.qui-asides {
+    position: absolute;
+    left: -200px;
+    top: 0;
+    height: 400px;
+    width: 200px;
+}
+.qui-aside {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    overflow-y: scroll;  /*垂直方向内容溢出则出现滚动条*/
+    background-color: #2d3741;
+}
+.qui-asideNav {
+    padding: 80px 10px 10px; /*上内边距为80px,左右内边距都为10px，下内边距为10px*/
+}
+.qui-asideNav li {
+    border-top: 1px solid #232d34;
+    background-color: #36424b;
+}
+.qui-asideNav a {
+    text-decoration: none;
+    display: block;
+    padding-left: 15px;
+    font-size: 16px;
+    line-height: 44px;
+    color: #ced1d5;
+}
+.qui-asideNav a:hover {
+    color: white;
+    background-color: #2bab79;
+}
+
+div,ul,li{
+    margin: 0;
+    padding: 0;
+    outline: none; /*当元素获得焦点的时候，焦点框为0，不出现虚线框（或高亮框）*/
+}
+.border-radius:hover {
+    top: -5px;
+    box-shadow: 0 0 15px #AAA;/*模糊值为15px的#AAA色的盒阴影*/
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #41a8ff;
+}
+header,.items{
+    margin-bottom: 20px;
+    width: 1250px;
+    height: 400px;
+    padding-left: 20px;
+    margin: 10px auto;
+}
+.items {
+    height: 320px;
+}
+.p {
+    background-color: #2A809D;
+    height: 320px;
+    background-image: linear-gradient(
+            to bottom,
+            #4b6db9 20%,
+            #b2d3ff 80%
+    );/*���ø�Ԫ�ر������϶��µ����Խ���*/
+    font-family: 'Microsoft Yahei';/*��������Ϊ΢���ź�*/
+    font-size:30px;
+    font-weight:bold;
+    color:#fff;
+    padding-top:40px;
+    line-height:30px;/*�ı��и�Ϊ30px*/
+}
+.item {
+    width: 230px;
+    height: 300px;
+    text-align: center;/*����ˮƽ����*/
+    margin-right: 20px;
+    background-color: #FFF;
+    float: left;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+    transition: all .5s;/*Css3�����������ԣ����ɣ�all(Ĭ��ֵ)ָ�������Ըı䣬����ת��������0.5s����ɡ�*/
+    box-shadow:  #41a8ff 0px 5px 5px ;/*����Ӱ������ƫ��5pxģ��ֵ5px��ɫΪ#41a8ff*/
+}
+.pic {
+    margin-top: -15px;
+    margin-left: -35px;
+
+}
+.desc {
+    position: absolute;/*���Զ�λ*/
+    bottom: -100px;
+    width: 100%;/*����Ǹ�Ԫ�ؿ�ȵ�100%*/
+    height: 100px;
+    background-color: #58A6F0;
+    transition: all .5s;
+    background-color: rgba(88,166,240,0.8);
+
+}
+/*�������ͣ�ڸ�Ԫ��ʱ����Ԫ�ؾ��Զ�λ�ڸ�Ԫ�ض���-5px��λ�ã����Һ���ӰΪģ����15px��#AAAɫ*/
+.item:hover {
+    top: -5px;
+    box-shadow: 0 0 15px #AAA;
+}
+/*�������ͣ������Ϊitem��Ԫ����ʱ����Ԫ�ص�����Ϊ.desc����Ԫ�ؾ��Զ�λ����ײ��븸Ԫ�صײ�����*/
+.item:hover .desc {
+    bottom: 0;
+}
+.detail{
+    font-weight: bold;
+    font-size: 20px;
+   margin-top: 50px;
+}
+.detail i{color: red;}

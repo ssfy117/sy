@@ -1,0 +1,133 @@
+.a1{
+    width: 100%;
+    height: 80px;
+    background-color: darkblue;
+
+}
+.a2{
+    font-size: 25px;
+    font bold;
+    color: white;
+    position: absolute;
+    top: 5px;
+    left: 10%;
+    text-shadow:10px 10px 10px white   ;
+}
+.a3{
+    position: absolute;
+    top: 30px; left: 33.33%;width: 20%;height: 25px;border-color: red;
+}
+.a4{
+    position: absolute;left:53.6666%;width: 4%;height: 30px;top: 31px;border-color: red;font-size: 5%;
+}
+.a5{
+    width: 100%;
+    height: 50px;font-size:20px;color: white;
+    background-color: darkslategrey;
+
+}
+.a6 {
+    width:16%;
+    float: left;
+}
+.a7{
+    position:relative;left: 35%;top: 10px;font-size: 20px;color: white;
+
+}
+.a8{
+    width: 14%;height: 50px;background-color: black;overflow: hidden;float:left;
+}
+.a9{
+    position:relative;left:35%;top: 10px;font-size: 20px;
+
+}
+.a8:hover{
+    background-color: red;
+}
+.a10{
+    width:13%;background-color: white;height:480px;left: 10%;position: relative;float: left;
+}
+.a11{
+    position:relative;top:0px;height: 60px;width: 100%;background-color: white;font-size: 20px;color: black;
+    border-bottom: 0.2px solid darkgrey;
+}
+.a12{
+    position: relative;left: 10%;
+}
+.a13{
+    width: 0.333%;background-color: white;position: relative;height: 100%;float: left;
+}
+.a14{
+    position: relative;top: 15px;font-size: 20px;left: 10%;color: red;
+}
+.a15{
+    position:relative;height: 60px;width: 100%;border-bottom: 0.2px solid darkgrey;
+    background-color: white;font-size: 20px;color: black;
+}
+.a16{
+    position: absolute;left: 15%;top: 15px;
+}
+.a15:hover{
+    position:relative;height: 60px;width: 100%;
+    background-color: white;font-size: 20px;color: red;
+}
+.a15:hover .a13{
+    width: 5px;background-color: red;position: relative;height: 100%;float: left;
+}
+.a17{
+    width: 5px;background-color: red;position: absolute;height: 100%;float: left;
+}
+.a18{
+    position: relative;width: 60%;left: 25%;background-color: white;height: 250px;
+}
+.a19{
+    position: absolute;left: 2%;
+}
+.a20{
+    width: 7%;position: absolute;top: 40px;left: 2%;color: chartreuse;
+}
+.a21{
+    width: 20%;position: absolute;height: 140px;float: left;background-color: white;top: 80px;left: 4%;
+    border: 0.5px solid darkgrey;
+
+}
+.a22{
+    width: 20%;position: relative;height: 140px;background-color: white;top: 63px;margin: 2%;float: left;
+    left: 3%;border: 0.5px solid darkgrey;
+}
+.a23{
+    width: 50%;position: relative;left: 20%;top: 5px;
+}
+.a24{
+    position: absolute;left: 30%;top: 80px;
+}
+.a25{
+    position: absolute;width: 100%;background-color: white;height: 250px;top: 300px;
+}
+.a26{
+    width: 20%;position: relative;height: 140px;background-color: white;margin: 2%;float: left;
+    left:25%;border: 0.5px solid darkgrey;top: 63px;
+
+}
+.a27{
+
+
+}
+.a30{
+    position: absolute;top: 1100px;width: 100%;height: 80px;background-color: white;
+}
+.a31{
+    position: relative;left: 20%;top: 10px;
+}
+.a32{
+    position:absolute;left: 50%;top: 15px;
+}
+li{
+    position: relative;float: left;margin: 10px;
+}
+.a33{
+    width: 100%;height: 100%;position: relative;
+}
+.a34{
+    position: absolute;font-size: 22px;color: white;left:21%;top: 75px;
+}
